@@ -6,7 +6,7 @@ print "Digite um número: "
 print "Digite outro número: "
     number2 = gets.chomp.to_i
 
-puts #{number1} + #{number2}
+puts "#{number1 + number2}"
 puts ""
 puts ""
 puts ""
