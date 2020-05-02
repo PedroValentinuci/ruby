@@ -6,7 +6,7 @@ print "Digite um número: "
 print "Digite outro número: "
     number2 = gets.chomp.to_i
 
-puts "Resultados das contas:    "
+puts "Resultados das contas:"
 puts "soma: #{number1 + number2}"
 puts "subtração: #{number1 - number2}"
 puts "multiplicação: #{number1 * number2}"
