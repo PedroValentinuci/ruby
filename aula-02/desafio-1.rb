@@ -4,5 +4,5 @@ print "Digite o seu nome: "
 print "Digite sua idade: "
     age = gets.chomp
 
-puts "Este(a) é #{name}, ele(a) tem #{age} de idade."
+puts "Este(a) é #{name}, ele(a) tem #{age} anos de idade."
 puts "Agradecido pela sua participação"
