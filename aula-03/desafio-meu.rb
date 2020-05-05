@@ -5,9 +5,9 @@ print "Qual produto o senhor deseja: "
     product = gets.chomp
 
 case product
-when volante
+when 'volante'
     puts "Temos um total de #{wheel} volantes"
-when banco
+when 'banco'
     puts "Temos um total de #{seat} bancos"
 else
     puts "Não temos este produto"
