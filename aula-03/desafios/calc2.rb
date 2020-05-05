@@ -2,6 +2,7 @@ result = ''
 
 loop do
  puts result 
+ puts ''
  puts 'Selecione uma das seguintes opções'
  puts '1- Adicionar'
  puts '2- Subtrair'
