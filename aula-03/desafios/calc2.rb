@@ -4,10 +4,10 @@ loop do
  puts result 
  puts '************************************'
  puts 'Selecione uma das seguintes opções'
- puts '1- Adicionar'
- puts '2- Subtrair'
- puts '3- Multiplicar'
- puts '4- Dividir'
+ puts '1- Adição'
+ puts '2- Subtração'
+ puts '3- Multiplicação'
+ puts '4- Divisão'
  puts '5- Potência'
  puts '6- Módulo (Resto da divisão)'
  puts '0- Sair'
@@ -16,7 +16,7 @@ loop do
  option = gets.chomp.to_i
  
  case option 
- when 1..5
+ when 1..6
    print 'Digite o primeiro número: '
     number1 = gets.chomp.to_i
    
