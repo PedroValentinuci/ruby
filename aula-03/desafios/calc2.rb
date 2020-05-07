@@ -17,7 +17,7 @@ loop do
  
  case option 
  when 1..6
-   print '****************************'
+   puts '****************************'
    print 'Digite o primeiro número: '
     number1 = gets.chomp.to_i
    
