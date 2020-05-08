@@ -1,0 +1,4 @@
+puts "lorem
+ipsum
+blu
+"
