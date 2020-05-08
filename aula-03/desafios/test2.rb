@@ -13,9 +13,12 @@ loop do
  
  case option 
  when 1..5
-    puts "**********************************"
-    puts "Parabéns você escolheu #{option}"
-    puts "Agora segue algumas opções de  artistas / grupos"
+    loop do
+        puts "**********************************"
+        puts "Parabéns você escolheu #{option}"
+        puts "Agora segue algumas opções de  artistas / grupos"
+    break
+    end
 
    case option 
    when 1 #Rap / Trap
@@ -31,13 +34,17 @@ loop do
                 Haikaiss
                 Costa Gold
                 JayA Luuk"
+            end
+                
             when 2 #gringa
                 puts "50 cent
                 Eminem
                 Post Malone
                 Travis Scott
                 Drake
-                Young Thug"
+                Young Thug"  
+            
+                
             else
                 puts "Opção inválida!"
             end
@@ -135,6 +142,7 @@ loop do
             else
                 puts "Opção invalida"
             end
+        end
  when 0
    break
  end
