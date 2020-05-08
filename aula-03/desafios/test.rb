@@ -8,7 +8,7 @@ loop do
  puts '2- Rock'
  puts '3- Pop'
  puts '4- Eletronica'
- puts '5- Blues'
+ puts '5- Indie'
  puts '6- Todas'
  puts '0- Sair'
  print 'Opção: '

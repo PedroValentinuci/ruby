@@ -1,4 +1,0 @@
-puts "lorem
-ipsum
-blu
-"
