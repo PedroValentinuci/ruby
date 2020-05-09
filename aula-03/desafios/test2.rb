@@ -10,6 +10,7 @@ loop do
     puts '0- Sair'
     print 'Opção: '
         option = gets.chomp.to_i
+end
  
  case option 
  when 1..5
@@ -26,6 +27,7 @@ loop do
         puts "2- gringa"
         print "Faça sua escolha: "
            nation1 = gets.chomp.to_i
+        
         case nation1
             when 1 #nacional
                 puts "Hungria  hip hop
@@ -143,10 +145,10 @@ loop do
                 puts "Opção invalida"
             end
         end
- when 0
-   break
- end
- else 
+    when 0
+        puts "Ok"
+    end 
+else 
    puts "Opção invalida"
  end
  # Comando que limpa o console
