@@ -1,12 +1,13 @@
 loop do
     puts "************************************"
-    puts " 1- Rap / trap"
+    puts "1- Rap / trap"
     puts "2- Rock"
     puts "3- Pop"
     puts "4- Eletronica"
     puts "5- Indie"
     print "Opção: "
         option = gets.chomp.to_i
+    puts "************************************"
 
 case option
     when 1 #Rap / trap
@@ -16,6 +17,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation1 = gets.chomp.to_i
+            puts "************************************"
         
             case nation1
                 when 1 #nacional
@@ -50,6 +52,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation2 = gets.chomp.to_i
+            puts "************************************"
         
             case nation2
                 when 1 #nacional
@@ -84,6 +87,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation3 = gets.chomp.to_i
+            puts "************************************"
         
             case nation3
                 when 1 #nacional
@@ -118,6 +122,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation4 = gets.chomp.to_i
+            puts "************************************"
         
             case nation4
                 when 1 #nacional
@@ -152,10 +157,11 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation5 = gets.chomp.to_i
+            puts "************************************"
         
             case nation5
                 when 1 #nacional 
-                    puts "Então meu mano(a), não tem muito não q canta essa para ai mas um dia eu acho"
+                    puts "Então meu mano(a), não tem muito não q canta essa parada ai mas um dia eu acho"
                     break
                 when 2 #gringa
                     puts "Algumas opções:"
