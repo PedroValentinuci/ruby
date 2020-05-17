@@ -5,6 +5,7 @@ loop do
     puts "3- Pop"
     puts "4- Eletronica"
     puts "5- Indie"
+    puts "0- Sair"
     print "Opção: "
         option = gets.chomp.to_i
     puts "************************************"
@@ -178,7 +179,12 @@ case option
             end
         
         end
-            
+    
+    when 0 #sair
+        puts "Você escolheu sair"
+        system "clear"
+        break
+
     else
         puts "Opção invalida!!"
         system "clear"
