@@ -6,7 +6,6 @@ loop do
     puts "4- Eletronica"
     puts "5- Indie"
     print "Opção: "
-    break
         option = gets.chomp.to_i
     puts "************************************"
 
