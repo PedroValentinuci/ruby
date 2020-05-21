@@ -195,8 +195,10 @@ case option
         names.each do |names|
             puts names
         end
+
         puts "*********************************************************************"
         puts "#{name} é o nome do criador!!" 
+        
         break
     when 0 #sair
         puts "Você escolheu sair"
