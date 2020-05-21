@@ -7,7 +7,7 @@ print "Digite o seu nome: "
     names.push("#{name1}")
 
 loop do
-    puts "************************************"
+    puts "*********************************************************************"
     puts "1- Rap / trap"
     puts "2- Rock"
     puts "3- Pop"
@@ -17,7 +17,7 @@ loop do
     puts "0- Sair"
     print "Opção: "
         option = gets.chomp.to_i
-    puts "************************************"
+    puts "*********************************************************************"
 
 case option
     when 1 #Rap / trap
@@ -27,7 +27,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation1 = gets.chomp.to_i
-            puts "************************************"
+            puts "*********************************************************************"
         
             case nation1
                 when 1 #nacional
@@ -62,7 +62,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation2 = gets.chomp.to_i
-            puts "************************************"
+            puts "*********************************************************************"
         
             case nation2
                 when 1 #nacional
@@ -97,7 +97,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation3 = gets.chomp.to_i
-            puts "************************************"
+            puts "*********************************************************************"
         
             case nation3
                 when 1 #nacional
@@ -132,7 +132,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation4 = gets.chomp.to_i
-            puts "************************************"
+            puts "*********************************************************************"
         
             case nation4
                 when 1 #nacional
@@ -167,7 +167,7 @@ case option
             puts "2- Gringa"
             print "Opção: "
                 nation5 = gets.chomp.to_i
-            puts "************************************"
+            puts "*********************************************************************"
         
             case nation5
                 when 1 #nacional 
