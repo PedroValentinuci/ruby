@@ -3,9 +3,17 @@ names = ['Sophia', 'Joãozinho', 'Joanazinha']
 name = 'Pedro Valentinuci'
 
 print "Digite o seu nome: "
+    name1 = gets.chomp
+    names.push("#{name1}")
+puts "*********************************************************************"
 
-names.each do |name|
-    puts name + ' é meu nome!'
+puts "Esses são alguns nomes de algumas pessoas que visitaram nosso app!!"
+
+names.each do |names|
+    puts names
 end
- 
-puts "#{name} é o nome do merda que criou isso!!" 
+
+
+puts "*********************************************************************"
+
+puts "#{name} é o nome do criador!!" 
