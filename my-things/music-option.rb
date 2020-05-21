@@ -196,9 +196,8 @@ case option
             puts names
         end
         puts "*********************************************************************"
-
         puts "#{name} é o nome do criador!!" 
-    
+        break
     when 0 #sair
         puts "Você escolheu sair"
         system "clear"
