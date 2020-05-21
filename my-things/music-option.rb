@@ -1,3 +1,11 @@
+names = ["Sopha", "Joãozinho", "Joanazinha"]
+
+name = "Pedro de Paula Valentinuci"
+
+print "Digite o seu nome: "
+    name1 = gets.chomp
+    names.push("#{name1}")
+
 loop do
     puts "************************************"
     puts "1- Rap / trap"
@@ -5,6 +13,7 @@ loop do
     puts "3- Pop"
     puts "4- Eletronica"
     puts "5- Indie"
+    puts "6- Ver os ultimos participantes desse"
     puts "0- Sair"
     print "Opção: "
         option = gets.chomp.to_i
@@ -179,6 +188,16 @@ case option
             end
         
         end
+    
+    when 6
+        puts "Esses são alguns nomes de algumas pessoas que visitaram nosso app!!"
+
+        names.each do |names|
+            puts names
+        end
+        puts "*********************************************************************"
+
+        puts "#{name} é o nome do criador!!" 
     
     when 0 #sair
         puts "Você escolheu sair"
