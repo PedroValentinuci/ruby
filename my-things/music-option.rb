@@ -189,7 +189,7 @@ loop do
         
             end
     
-        when 6
+        when 6 #nome visitantes 
             puts "Esses são alguns nomes de algumas pessoas que visitaram nosso app!!"
 
             names.each do |names|
