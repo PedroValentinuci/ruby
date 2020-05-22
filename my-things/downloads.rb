@@ -1,0 +1,2 @@
+system 'zoom'
+system 'joplin'
