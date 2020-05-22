@@ -1,7 +1,7 @@
 names = ["Sopha", "Joãozinho", "Joanazinha"]
 version = {'Versão 1' => 'Liberada', 'Versão 2' => 'Liberada', 'Versão 3' => 'Essa agora', 'Versão 4' => 'Em desenvolvimento'}
 
-name = "Pedro de Paula Valentinuci"
+creator = 'Pedro "Dpezin" Valentinuci'
 
 print "Digite o seu nome: "
     name1 = gets.chomp
@@ -199,7 +199,7 @@ loop do
             end
 
             puts "*********************************************************************"
-            puts "#{name} é o nome do criador!!" 
+            puts "#{creator} é o nome do criador!!" 
 
             break
 
