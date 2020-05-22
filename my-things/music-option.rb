@@ -1,4 +1,5 @@
 names = ["Sopha", "Joãozinho", "Joanazinha"]
+version = {'Versão 1' => 'Liberada', 'Versão 2' => 'Liberada', 'Versão 3' => 'Essa agora', 'Versão 4' => 'Em desenvolvimento'}
 
 name = "Pedro de Paula Valentinuci"
 
@@ -14,6 +15,7 @@ loop do
     puts "4- Eletronica"
     puts "5- Indie"
     puts "6- Ver os ultimos participantes desse"
+    puts "7- Ver em qual versão está esse código"
     puts "0- Sair"
     print "Opção: "
         option = gets.chomp.to_i
@@ -199,6 +201,12 @@ loop do
             puts "*********************************************************************"
             puts "#{name} é o nome do criador!!" 
 
+            break
+
+        when 7 #versão
+            version.each do |key, value|
+                puts "#{key} #{value}"
+            end
             break
         when 0 #sair
             puts "Você escolheu sair"
