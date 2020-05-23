@@ -14,7 +14,7 @@ loop do
     puts "3- Pop"
     puts "4- Eletronica"
     puts "5- Indie"
-    puts "6- Ver os ultimos participantes desse"
+    puts "6- Ver os ultimos participantes desse project"
     puts "7- Ver em qual versão está esse código"
     puts "0- Sair"
     print "Opção: "
