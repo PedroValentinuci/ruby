@@ -21,7 +21,7 @@ loop do
     puts "*********************************************************************"
 
     case option
-        when 1 #Rap / trap
+        when 1 #Rap / trap / hip hop
             loop do
                 puts "Escolha:"
                 puts "1- Nacional"
