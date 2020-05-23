@@ -5,4 +5,6 @@ system 'cd projects'
 system 'cd Arduino'
 
 system 'github'
+system 'code'
+system 'arduino'
 system 'google-chrome'

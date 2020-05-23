@@ -5,4 +5,5 @@ system 'cd projects'
 system 'cd aprendiz_python'
 
 system 'github'
+system 'code'
 system 'google-chrome'
