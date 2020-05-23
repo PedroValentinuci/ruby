@@ -4,6 +4,8 @@ system 'cd Documents'
 system 'cd projects'
 system 'cd aprendiz_python'
 
-system 'github'
+system 'github &'
 system 'code'
-system 'google-chrome'
+system 'google-chrome &'
+
+system 'exit'
