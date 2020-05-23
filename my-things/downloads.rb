@@ -1,2 +1,0 @@
-system 'zoom'
-system 'joplin'
