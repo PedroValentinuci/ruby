@@ -5,4 +5,5 @@ system 'cd projects'
 system 'cd ruby'
 
 system 'github'
+system 'code'
 system 'google-chrome'
