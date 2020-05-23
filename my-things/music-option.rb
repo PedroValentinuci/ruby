@@ -1,6 +1,5 @@
 names = ["Sopha", "Joãozinho", "Joanazinha"]
 version = {'Versão 1' => 'Liberada', 'Versão 2' => 'Liberada', 'Versão 3' => 'Essa agora', 'Versão 4' => 'Em desenvolvimento'}
-
 creator = 'Pedro "Dpezin" Valentinuci'
 
 print "Digite o seu nome: "
