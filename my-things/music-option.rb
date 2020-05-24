@@ -1,6 +1,12 @@
 names = ["Sopha", "Joãozinho", "Joanazinha"]
-version = {'Versão 1' => 'Liberada', 'Versão 2' => 'Liberada', 'Versão 3' => 'Essa agora', 'Versão 4' => 'Em desenvolvimento'}
+version = {'Versão 1' => 'Liberada', 'Versão 2' => 'Liberada', 'Versão 3' => 'Liberada',
+    'Versão 4' => 'Atual', 'Versão 5' => 'Em desenvlvimento'}
 creator = 'Pedro "Dpezin" Valentinuci'
+
+def nation
+    puts "1- Nacional"
+    puts "2- Gringa"
+end
 
 print "Digite o seu nome: "
     name1 = gets.chomp
@@ -23,9 +29,7 @@ loop do
     case option
         when 1 #Rap / trap / hip hop
             loop do
-                puts "Escolha:"
-                puts "1- Nacional"
-                puts "2- Gringa"
+                nation
                 print "Opção: "
                    nation1 = gets.chomp.to_i
                 puts "*********************************************************************"
@@ -58,9 +62,7 @@ loop do
             
         when 2 #Rock
             loop do
-                puts "Escolha:"
-                puts "1- Nacional"
-                puts "2- Gringa"
+                nation
                 print "Opção: "
                     nation2 = gets.chomp.to_i
                 puts "*********************************************************************"
@@ -93,9 +95,7 @@ loop do
             
         when 3 #Pop
             loop do
-                puts "Escolha:"
-                puts "1- Nacional"
-                puts "2- Gringa"
+                nation
                 print "Opção: "
                     nation3 = gets.chomp.to_i
                 puts "*********************************************************************"
@@ -128,9 +128,7 @@ loop do
             
         when 4 #eletronica
             loop do
-                puts "Escolha:"
-                puts "1- Nacional"
-                puts "2- Gringa"
+                nation
                 print "Opção: "
                     nation4 = gets.chomp.to_i
                 puts "*********************************************************************"
@@ -163,9 +161,7 @@ loop do
             
         when 5 #Indie
             loop do
-                puts "Escolha:"
-                puts "1- Nacional"
-                puts "2- Gringa"
+                nation
                 print "Opção: "
                     nation5 = gets.chomp.to_i
                 puts "*********************************************************************"
