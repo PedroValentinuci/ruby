@@ -203,10 +203,52 @@ loop do
             break
 
         when 7 #versão
-            version.each do |key, value|
-                puts "#{key} #{value}"
+            loop do
+                puts "1- Versão 1"
+                puts "2- Versão 2"
+                puts "3- Versão 3"
+                puts "4- Versão 4"
+                puts "5- Todas as versões"
+                print "Opção: "
+                    opt = gets.chomp.to_i
+                case opt
+                    when 1
+                        opt_key1 = version.select do |key, value|
+                            key = 'Versão 1'
+                        end
+                        break
+                        puts opt_key1
+                    when 2
+                        opt_key2 = version.select do |key, value|
+                            key = 'Versão 2'
+                        end
+                        break
+                        puts opt_key2
+                    when 3
+                        opt_key3 = version.select do |key, value|
+                            key = 'Versão 3'
+                        end
+                        break
+                        puts opt_key3
+                    when 4
+                        opt_key4 = version.select do |key, value|
+                            key = 'Versão 4'
+                        end
+                        break
+                        puts opt_key4
+                    when 5
+                        version.each do |key, value|
+                            puts "#{key} #{value}"
+                        end
+                        break
+                        system "^C"
+                    else
+                        puts "Opção invalida"
+                        break
+                end
+            
             end
-            break
+            
         when 0 #sair
             puts "Você escolheu sair"
             system "clear"
