@@ -5,7 +5,8 @@ system 'cd projects'
 system 'cd ruby'
 
 system 'github &'
-system 'code'
+system 'gitkraken &'
+system 'code &'
 system 'google-chrome &'
 
 system 'exit'

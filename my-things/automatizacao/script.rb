@@ -5,7 +5,8 @@ system 'cd projects'
 system 'cd script-instalador-workstation'
 
 system 'github &'
-system 'code'
+system 'gitkraken &'
+system 'code &'
 system 'google-chrome &'
 
 system 'exit'
