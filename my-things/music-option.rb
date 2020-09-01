@@ -28,7 +28,6 @@ loop do
 
     case option
         when 1 #Rap / trap / hip hop
-            loop do
                 nation
                 print "Opção: "
                    nation1 = gets.chomp.to_i
@@ -57,11 +56,8 @@ loop do
                         puts "Opção invalida"
                         system "clear"
                 end
-        
-            end
-            
+       
         when 2 #Rock
-            loop do
                 nation
                 print "Opção: "
                     nation2 = gets.chomp.to_i
@@ -90,11 +86,8 @@ loop do
                         puts "Opção invalida"
                         system "clear"
                 end
-        
-            end
             
         when 3 #Pop
-            loop do
                 nation
                 print "Opção: "
                     nation3 = gets.chomp.to_i
@@ -123,11 +116,8 @@ loop do
                         puts "Opção invalida"
                         system "clear"
                 end
-        
-            end
             
         when 4 #eletronica
-            loop do
                 nation
                 print "Opção: "
                     nation4 = gets.chomp.to_i
@@ -156,11 +146,8 @@ loop do
                         puts "Opção invalida"
                         system "clear"
                 end
-        
-            end
             
         when 5 #Indie
-            loop do
                 nation
                 print "Opção: "
                     nation5 = gets.chomp.to_i
@@ -183,8 +170,6 @@ loop do
                         puts "Opção invalida"
                         system "clear"
                 end
-        
-            end
     
         when 6 #nome visitantes 
             puts "Esses são alguns nomes de algumas pessoas que visitaram nosso app!!"
