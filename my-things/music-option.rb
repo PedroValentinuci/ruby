@@ -188,7 +188,6 @@ loop do
         when 7 #versão
                 puts "         "
                 puts "Versão 4!"
-                puts "         "
                 break
             
         when 0 #sair
