@@ -1,6 +1,5 @@
 names = ["Sopha", "Joãozinho", "Joanazinha"]
-version = {'Versão 1' => 'Liberada', 'Versão 2' => 'Liberada', 'Versão 3' => 'Liberada',
-    'Versão 4' => 'Atual', 'Versão 5' => 'Em desenvlvimento'}
+version = {'Versão 1' => 'Liberada', 'Versão 2' => 'Liberada', 'Versão 3' => 'Liberada', 'Versão 4' => 'Atual', 'Versão 5' => 'Em desenvlvimento'}
 creator = 'Pedro "Dpezin" Valentinuci'
 
 def nation
